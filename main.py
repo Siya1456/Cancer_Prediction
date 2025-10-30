@@ -8,11 +8,11 @@ from sklearn.metrics import accuracy_score
 st.title("🩺 Cancer Prediction")
 
 # === Step 1: Load and Train Model Automatically ===
-st.write("### 🧠 Training Model Automatically Using 'cancer_prediction.csv'")
+st.write("### 🧠 Training Model Automatically Using 'Cancer_prediction.csv'")
 
 try:
     # Load your dataset (must be in the same folder)
-    data_df = pd.read_csv("cancer_prediction.csv")
+    data_df = pd.read_csv("Cancer_prediction.csv")
 
     # Encode non-numeric columns
     for col in data_df.columns:
