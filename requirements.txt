@@ -1,4 +1,8 @@
-streamlit
+numpy
 pandas
 scikit-learn
-sklearn
+streamlit
+keras
+tensorflow
+seaborn
+matplotlib
